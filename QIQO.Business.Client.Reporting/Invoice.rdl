@@ -466,7 +466,7 @@ ORDER BY 3 DESC</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>=First(Fields!invoice_item_complete_date.Value, "LineItemsDS") &amp; " - " &amp; Last(Fields!invoice_item_complete_date.Value, "LineItemsDS")</Value>
+                    <Value>=FormatDateTime(First(Fields!invoice_item_complete_date.Value, "LineItemsDS"), DateFormat.ShortDate) &amp; " - " &amp; FormatDateTime(Last(Fields!invoice_item_complete_date.Value, "LineItemsDS"), DateFormat.ShortDate)</Value>
                     <Style>
                       <FontSize>8pt</FontSize>
                       <Format>d</Format>
