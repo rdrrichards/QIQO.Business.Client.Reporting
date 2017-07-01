@@ -45,6 +45,10 @@
       <Name>Product Performance.rdl</Name>
       <FullPath>Product Performance.rdl</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Annual Invoice Report by Account.rdl</Name>
+      <FullPath>Annual Invoice Report by Account.rdl</FullPath>
+    </ProjectItem>
   </Reports>
   <Configurations>
     <Configuration>
