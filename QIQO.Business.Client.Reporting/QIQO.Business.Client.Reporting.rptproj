@@ -14,6 +14,10 @@
       <FullPath>Account Data Sheet.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
+      <Name>Annual Invoice Report by Account.rdl</Name>
+      <FullPath>Annual Invoice Report by Account.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
       <Name>Invoice (Based on Order).rdl</Name>
       <FullPath>Invoice (Based on Order).rdl</FullPath>
     </ProjectItem>
@@ -45,10 +49,6 @@
       <Name>Product Performance.rdl</Name>
       <FullPath>Product Performance.rdl</FullPath>
     </ProjectItem>
-    <ProjectItem>
-      <Name>Annual Invoice Report by Account.rdl</Name>
-      <FullPath>Annual Invoice Report by Account.rdl</FullPath>
-    </ProjectItem>
   </Reports>
   <Configurations>
     <Configuration>
@@ -57,7 +57,7 @@
       <Options>
         <OutputPath>bin\Debug</OutputPath>
         <TargetServerVersion>SSRS2016</TargetServerVersion>
-        <TargetServerURL>http://rdrrl8/ReportServer_P1</TargetServerURL>
+        <TargetServerURL>http://rdrrl8/ReportServer</TargetServerURL>
         <TargetFolder>Live</TargetFolder>
         <TargetDataSourceFolder>Data Sources</TargetDataSourceFolder>
         <TargetDatasetFolder>Datasets</TargetDatasetFolder>
